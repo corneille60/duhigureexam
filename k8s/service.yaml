@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: duhiguree-service
+spec:
+  selector:
+    app: duhiguree
+  type: NodePort
+  ports:
+    - port: 3007
+      targetPort: 3007
+      nodePort: 30077
