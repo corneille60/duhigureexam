@@ -1,0 +1,16 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Docker
+*.log
+
+# Kubernetes
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minikube / local
+.minikube/
